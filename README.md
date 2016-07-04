@@ -3,11 +3,12 @@
 
 1. In exercises or sandbox directory
 2. `git clone https://github.com/ga-dc/js-dom-quotes.git`
-3. `cd js-dom-quotes`
-4. `open index.html`
-5. <kbd>command + option + j</kbd>
-6. Select "elements" from top ribbon
-7. Click ' >_ ' on right of ribbon to open the console
+3. `git checkout -b selecting-dom-elements origin/selecting-dom-elements`
+4. `cd js-dom-quotes`
+5. `open index.html`
+6. <kbd>command + option + j</kbd>
+7. Select "elements" from top ribbon
+8. Click ' >_ ' on right of ribbon to open the console
 
 ## Exercise
 

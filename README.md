@@ -16,35 +16,35 @@ Your task is to write javascript **in the console** to retrieve the objects whic
 ### Part 1
 
 1. Select the `<body>`
-```
+```js
 $('body')
 ```
 - Select the `<header>`
-```
+```js
 $('header')
 ```
 - Select all of the elements with class "quote"
-```
+```js
 $('.quote')
 ```
 - Select all of the subject elements
-```
+```js
 $('.subject')
 ```
 - Select the navigation links
-```
+```js
 $('nav')
 ```
 - Select all the quotes in the "life" section.
-```
+```js
 $('.life').find('.quote')
 ```
 - Select the 'Quotes About Motivation' heading
-```
+```js
 $('.motivation').children().eq(0)
 ```
 - Select the `<p>` element containing the **second** Mark Twain quote
-```
+```js
 $('#mark-twain').siblings().eq(1).find('p')
 ```
 

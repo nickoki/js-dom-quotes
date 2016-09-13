@@ -16,16 +16,37 @@ Your task is to write javascript **in the console** to retrieve the objects whic
 ### Part 1
 
 1. Select the `<body>`
-'''
-Test
-'''
+```
+
+```
 - Select the `<header>`
+```
+
+```
 - Select all of the elements with class "quote"
+```
+
+```
 - Select all of the subject elements
+```
+
+```
 - Select the navigation links
+```
+
+```
 - Select all the quotes in the "life" section.
+```
+
+```
 - Select the 'Quotes About Motivation' heading
+```
+
+```
 - Select the `<p>` element containing the **second** Mark Twain quote
+```
+
+```
 
 ### Part 2
 

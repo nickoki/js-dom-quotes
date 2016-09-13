@@ -17,42 +17,42 @@ Your task is to write javascript **in the console** to retrieve the objects whic
 
 1. Select the `<body>`
 ```
-
+$('body')
 ```
 - Select the `<header>`
 ```
-
+$('header')
 ```
 - Select all of the elements with class "quote"
 ```
-
+$('.quote')
 ```
 - Select all of the subject elements
 ```
-
+$('.subject')
 ```
 - Select the navigation links
 ```
-
+$('nav')
 ```
 - Select all the quotes in the "life" section.
 ```
-
+$('.life').find('.quote')
 ```
 - Select the 'Quotes About Motivation' heading
 ```
-
+$('.motivation').children().eq(0)
 ```
 - Select the `<p>` element containing the **second** Mark Twain quote
 ```
-
+$('#mark-twain').siblings().eq(1).find('p')
 ```
 
 ### Part 2
 
 Do the same as before, but this time **with no spaces or colons in `$( )`**. That is: retrieve the target element(s) **using only DOM traversal methods** from [jQuery's documentation](http://api.jquery.com/category/traversing/tree-traversal/).
 ```
-
+$('#mark-twain').siblings().eq(1).find('p')
 ```
 
 #### OK:

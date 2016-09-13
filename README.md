@@ -16,14 +16,41 @@ Your task is to write javascript, in the console, to retrieve the objects which 
 Start with these:
 
 1. Select the `<body>`
+```
+
+```
 - Select the `<header>`
+```
+
+```
 - Select all of the elements with class "quote"
+```
+
+```
 - Select all of the subject elements
+```
+
+```
 - Select the navigation links
+```
+
+```
 - Select all the quotes in the "life" section.
+```
+
+```
 - Using relative selection, select the `<p>` element containing the second Mark Twain quote
+```
+
+```
 - Do the same using a query selector
+```
+
+```
 - Select the 'Quotes About Motivation' heading
+```
+
+```
 
 Next:
 
@@ -31,3 +58,6 @@ Once you find those, pick various items on the page and retrieve their objects.
 
 ### Bonus
  Using the console, add the author's last name, as a class, to one of the quotes.
+ ```
+
+ ```

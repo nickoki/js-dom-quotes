@@ -51,7 +51,7 @@ $('#mark-twain').siblings().eq(1).find('p')
 ### Part 2
 
 Do the same as before, but this time **with no spaces or colons in `$( )`**. That is: retrieve the target element(s) **using only DOM traversal methods** from [jQuery's documentation](http://api.jquery.com/category/traversing/tree-traversal/).
-```
+```js
 $('#mark-twain').siblings().eq(1).find('p')
 ```
 
